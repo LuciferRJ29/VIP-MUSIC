@@ -176,9 +176,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="๏ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ๏",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close",
             ),
         ],
     ]
@@ -448,9 +446,7 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="๏ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ๏",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close",
             ),
         ],
     ]
@@ -670,9 +666,7 @@ def stream_markup_timer2(_, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="๏ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ๏",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close",
             ),
         ],
     ]
