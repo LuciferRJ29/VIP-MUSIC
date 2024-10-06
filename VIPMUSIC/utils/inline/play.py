@@ -55,25 +55,25 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
 
     # Fun and engaging sentences with progress bar
     if 10 < umm <= 20:
-        bar = "—◉—————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     elif 20 <= umm < 35:
-        bar = "———◉———————"
+        bar = "▰▰▱▱▱▱▱▱▱"
     elif 35 <= umm < 50:
-        bar = "————◉——————"
+        bar = "▰▰▰▱▱▱▱▱▱"
     elif 50 <= umm < 75:
-        bar = "—————◉—————"
+        bar = "▰▰▰▰▱▱▱▱▱"
     elif 75 <= umm < 80:
-        bar = "——————◉————"
+        bar = "▰▰▰▰▰▱▱▱▱"
     elif 80 <= umm < 85:
-        bar = "———————◉———"
+        bar = "▰▰▰▰▰▰▱▱▱"
     elif 85 <= umm < 90:
-        bar = "————————◉——"
+        bar = "▰▰▰▰▰▰▰▱▱"
     elif 90 <= umm < 95:
-        bar = "—————————◉—"
+        bar = "▰▰▰▰▰▰▰▰▱"
     elif 95 <= umm < 100:
-        bar = "——————————◉"
+        bar = "▰▰▰▰▰▰▰▰▰"
     else:
-        bar = "◉——————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     buttons = [
         [
             InlineKeyboardButton(
@@ -131,25 +131,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 10 < umm <= 20:
-        bar = "—◉—————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     elif 20 <= umm < 35:
-        bar = "———◉———————"
+        bar = "▰▰▱▱▱▱▱▱▱"
     elif 35 <= umm < 50:
-        bar = "————◉——————"
+        bar = "▰▰▰▱▱▱▱▱▱"
     elif 50 <= umm < 75:
-        bar = "—————◉—————"
+        bar = "▰▰▰▰▱▱▱▱▱"
     elif 75 <= umm < 80:
-        bar = "——————◉————"
+        bar = "▰▰▰▰▰▱▱▱▱"
     elif 80 <= umm < 85:
-        bar = "———————◉———"
+        bar = "▰▰▰▰▰▰▱▱▱"
     elif 85 <= umm < 90:
-        bar = "————————◉——"
+        bar = "▰▰▰▰▰▰▰▱▱"
     elif 90 <= umm < 95:
-        bar = "—————————◉—"
+        bar = "▰▰▰▰▰▰▰▰▱"
     elif 95 <= umm < 100:
-        bar = "——————————◉"
+        bar = "▰▰▰▰▰▰▰▰▰"
     else:
-        bar = "◉——————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
 
     buttons = [
         [
@@ -365,25 +365,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 10 < umm <= 20:
-        bar = "—◉—————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     elif 20 <= umm < 35:
-        bar = "———◉———————"
+        bar = "▰▰▱▱▱▱▱▱▱"
     elif 35 <= umm < 50:
-        bar = "————◉——————"
+        bar = "▰▰▰▱▱▱▱▱▱"
     elif 50 <= umm < 75:
-        bar = "—————◉—————"
+        bar = "▰▰▰▰▱▱▱▱▱"
     elif 75 <= umm < 80:
-        bar = "——————◉————"
+        bar = "▰▰▰▰▰▱▱▱▱"
     elif 80 <= umm < 85:
-        bar = "———————◉———"
+        bar = "▰▰▰▰▰▰▱▱▱"
     elif 85 <= umm < 90:
-        bar = "————————◉——"
+        bar = "▰▰▰▰▰▰▰▱▱"
     elif 90 <= umm < 95:
-        bar = "—————————◉—"
+        bar = "▰▰▰▰▰▰▰▰▱"
     elif 95 <= umm < 100:
-        bar = "——————————◉"
+        bar = "▰▰▰▰▰▰▰▰▰"
     else:
-        bar = "◉——————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     buttons = [
         [
             InlineKeyboardButton(
@@ -622,25 +622,25 @@ def stream_markup_timer2(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 10 < umm <= 20:
-        bar = "—◉—————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     elif 20 <= umm < 35:
-        bar = "———◉———————"
+        bar = "▰▰▱▱▱▱▱▱▱"
     elif 35 <= umm < 50:
-        bar = "————◉——————"
+        bar = "▰▰▰▱▱▱▱▱▱"
     elif 50 <= umm < 75:
-        bar = "—————◉—————"
+        bar = "▰▰▰▰▱▱▱▱▱"
     elif 75 <= umm < 80:
-        bar = "——————◉————"
+        bar = "▰▰▰▰▰▱▱▱▱"
     elif 80 <= umm < 85:
-        bar = "———————◉———"
+        bar = "▰▰▰▰▰▰▱▱▱"
     elif 85 <= umm < 90:
-        bar = "————————◉——"
+        bar = "▰▰▰▰▰▰▰▱▱"
     elif 90 <= umm < 95:
-        bar = "—————————◉—"
+        bar = "▰▰▰▰▰▰▰▰▱"
     elif 95 <= umm < 100:
-        bar = "——————————◉"
+        bar = "▰▰▰▰▰▰▰▰▰"
     else:
-        bar = "◉——————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     buttons = [
         [
             InlineKeyboardButton(
@@ -838,25 +838,25 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 10 < umm <= 20:
-        bar = "—◉—————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     elif 20 <= umm < 35:
-        bar = "———◉———————"
+        bar = "▰▰▱▱▱▱▱▱▱"
     elif 35 <= umm < 50:
-        bar = "————◉——————"
+        bar = "▰▰▰▱▱▱▱▱▱"
     elif 50 <= umm < 75:
-        bar = "—————◉—————"
+        bar = "▰▰▰▰▱▱▱▱▱"
     elif 75 <= umm < 80:
-        bar = "——————◉————"
+        bar = "▰▰▰▰▰▱▱▱▱"
     elif 80 <= umm < 85:
-        bar = "———————◉———"
+        bar = "▰▰▰▰▰▰▱▱▱"
     elif 85 <= umm < 90:
-        bar = "————————◉——"
+        bar = "▰▰▰▰▰▰▰▱▱"
     elif 90 <= umm < 95:
-        bar = "—————————◉—"
+        bar = "▰▰▰▰▰▰▰▰▱"
     elif 95 <= umm < 100:
-        bar = "——————————◉"
+        bar = "▰▰▰▰▰▰▰▰▰"
     else:
-        bar = "◉——————————"
+        bar = "▰▱▱▱▱▱▱▱▱"
     buttons = [
         [
             InlineKeyboardButton(
