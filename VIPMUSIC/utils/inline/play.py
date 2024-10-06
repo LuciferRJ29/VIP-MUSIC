@@ -77,7 +77,7 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
+                text=f"{played} {bar} {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -154,7 +154,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
+                text=f"{played} {bar} {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -387,7 +387,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
+                text=f"{played} {bar} {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -644,7 +644,7 @@ def stream_markup_timer2(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
+                text=f"{played} {bar} {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -860,7 +860,7 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
+                text=f"{played} {bar} {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
