@@ -96,7 +96,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/Luciferrj29/VIP-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -114,8 +114,8 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS"
-)  # Example:- https://t.me/VIP_CREATORS
+    "SUPPORT_CHANNEL", "https://t.me/STD_DEEPANSHU"
+)  # Example:- https://t.me/STD_DEEPANSHU
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
 )  # Example:- https://t.me/TG_FRIENDSS
